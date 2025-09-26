@@ -1,0 +1,43 @@
+// import 'package:flutter/material.dart';
+
+// Widget btnChooseLocation() => Builder(
+//       builder: (context) => FlatButton(
+//         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
+//         color: Colors.grey[100],
+//         padding: EdgeInsets.all(0),
+//         child: Container(
+//           margin: EdgeInsets.symmetric(vertical: 10),
+//           child: Row(
+//             children: [
+//               AspectRatio(
+//                 aspectRatio: 4 / 4,
+//                 child: Column(
+//                   mainAxisAlignment: MainAxisAlignment.center,
+//                   children: [
+//                     Expanded(flex: 2, child: Center()),
+//                     Expanded(
+//                         flex: 3,
+//                         child: AspectRatio(
+//                             aspectRatio: 4 / 4,
+//                             child: FittedBox(
+//                                 fit: BoxFit.fill,
+//                                 child: Icon(Icons.location_pin,
+//                                     color: Theme.of(context).primaryColor)))),
+//                     Expanded(flex: 2, child: Center()),
+//                   ],
+//                 ),
+//               ),
+//               Text(
+//                 "Choose Location",
+//                 textAlign: TextAlign.left,
+//                 textScaleFactor: 1.1,
+//                 style: TextStyle(letterSpacing: 0.3),
+//               )
+//             ],
+//           ),
+//         ),
+//         onPressed: () {
+//           // Navigator.pushNamed(context, locationPickup);
+//         },
+//       ),
+//     );

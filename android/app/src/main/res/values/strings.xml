@@ -1,0 +1,4 @@
+<resources>
+    <string name="api_key">@string/dotenv_api_key</string>
+    <string name="dotenv_api_key">mapApiKey</string>
+</resources>
